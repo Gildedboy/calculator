@@ -13,6 +13,7 @@ body {
 }
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 900px;
@@ -61,6 +62,9 @@ body {
 #row6 {
   display: flex;
   justify-content: stretch;
+}
+#ac {
+  flex-grow: 1;
 }
 #number0 {
   flex-grow: 1;

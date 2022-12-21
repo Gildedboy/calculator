@@ -29,3 +29,14 @@ function operate(operator, firstOperand, secondOperand) {
       return divide(firstOperand, secondOperand);
   }
 }
+
+const display = document.getElementById("display");
+const numberButtons = Array.from(document.getElementsByClassName("number"));
+
+console.log(numberButtons);
+
+numberButtons.forEach((button) =>
+  button.addEventListener("click", function () {
+    return (display.textContent = button.textContent);
+  })
+);

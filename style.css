@@ -22,6 +22,7 @@ body {
 
 .number,
 .operation,
+.result,
 .mode {
   width: 80px;
   height: 80px;
@@ -30,6 +31,7 @@ body {
 .display,
 .number,
 .operation,
+.result,
 .mode {
   border: 2px solid black;
   font-size: 50px;
@@ -51,7 +53,8 @@ body {
 .number {
   background-color: darkcyan;
 }
-.operation {
+.operation,
+.result {
   background-color: orange;
 }
 

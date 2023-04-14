@@ -63,7 +63,7 @@ body {
   display: flex;
   justify-content: stretch;
 }
-#ac {
+#clear {
   flex-grow: 1;
 }
 #number0 {
